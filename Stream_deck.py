@@ -8,19 +8,19 @@ import os
 def open_youtube():
     webbrowser.open("https://www.youtube.com/")
 
-def open_spotify():
-    os.startfile(r"C:\Users\kim\AppData\Roaming\Spotify\Spotify.exe")
+def open_spotify():    # du må endre C:\Users\kim\AppData\Roaming\Spotify\Spotify.exe
+    os.startfile(r"C:\Users\kim\AppData\Roaming\Spotify\Spotify.exe") 
 
 def open_copilot():
     webbrowser.open("https://copilot.microsoft.com/")
 
-def open_logitech_ghub():
+def open_logitech_ghub(): # du må kanse endre C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Logi\Logitech G HUB.lnk
     os.startfile(r"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Logi\Logitech G HUB.lnk")
 
 def open_steam():
     os.startfile(r"C:\Program Files (x86)\Steam\steam.exe")
 
-def open_discord():
+def open_discord():  # du må endre C:\Users\kim\AppData\Local\Discord\app-1.0.9147\Discord.exe
     os.startfile(r"C:\Users\kim\AppData\Local\Discord\app-1.0.9147\Discord.exe")
 
 def open_battlenet():
